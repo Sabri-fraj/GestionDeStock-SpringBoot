@@ -11,7 +11,7 @@ public class UtilisateurValiator {
     public static List<String> validate(UtilisateurDto utilisateurDto){
         List<String> errors = new ArrayList<>();
 
-
+            //okkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
         if (utilisateurDto == null){
             errors.add("veuillez renseigner nom d'utilisateur");
             errors.add( "veuillez renseigner prenom d'utilisateur");
