@@ -35,6 +35,9 @@ public class UtilisateurValiator {
         if (!StringUtils.hasLength(utilisateurDto.getMotDePasse())){
             errors.add("veuillez renseigner le mot de passe d'utilisateur");
         }
+        if (utilisateurDto.getDateNaissance() == null){
+            errors.add("veuillez renseigner la date de naissance");
+        }
         if (utilisateurDto.getAdresse() ==null){
             errors.add("veuillez renseigner l'adresse d'utilisateur");
         }
